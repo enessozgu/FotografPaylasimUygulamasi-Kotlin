@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recylerEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAİL FOTO"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/recylerimageView"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        >
+
+    </ImageView>
+
+
+
+    <TextView
+        android:id="@+id/recylerCommentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Yorum"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        >
+
+    </TextView>
+
+
+
+
+
+</LinearLayout>

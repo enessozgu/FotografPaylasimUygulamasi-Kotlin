@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/giris">
+
+    <fragment
+        android:id="@+id/giris"
+        android:name="com.example.cheapgpt.view.Giris"
+        android:label="fragment_giris"
+        tools:layout="@layout/fragment_giris" >
+        <action
+            android:id="@+id/action_giris_to_kayit"
+            app:destination="@id/kayit" />
+        <action
+            android:id="@+id/action_giris_to_recyle_page"
+            app:destination="@id/recyle_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/anasayfa"
+        android:name="com.example.cheapgpt.anasayfa"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" />
+    <fragment
+        android:id="@+id/kayit"
+        android:name="com.example.cheapgpt.view.Kayit"
+        android:label="fragment_kayit"
+        tools:layout="@layout/fragment_kayit" >
+        <action
+            android:id="@+id/action_kayit_to_recyle_page"
+            app:destination="@id/recyle_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyle_page"
+        android:name="com.example.cheapgpt.view.recyle_page"
+        android:label="fragment_recyle_page"
+        tools:layout="@layout/fragment_recyle_page" >
+        <action
+            android:id="@+id/action_recyle_page_to_upload_fragment"
+            app:destination="@id/upload_fragment" />
+        <action
+            android:id="@+id/action_recyle_page_to_giris"
+            app:destination="@id/giris" />
+    </fragment>
+    <fragment
+        android:id="@+id/upload_fragment"
+        android:name="com.example.cheapgpt.view.upload_fragment"
+        android:label="fragment_upload_fragment"
+        tools:layout="@layout/fragment_upload_fragment" >
+        <action
+            android:id="@+id/action_upload_fragment_to_recyle_page"
+            app:destination="@id/recyle_page" />
+    </fragment>
+</navigation>

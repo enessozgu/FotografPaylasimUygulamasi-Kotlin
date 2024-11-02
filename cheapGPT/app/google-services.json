@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "312587925834",
+    "project_id": "cheapgpt-62d1b",
+    "storage_bucket": "cheapgpt-62d1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312587925834:android:966e1a35ca615304cba9b3",
+        "android_client_info": {
+          "package_name": "com.example.cheapgpt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvf9wwYFTA4IESjnUHkqM-G0mNrC38kw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
